@@ -1,6 +1,9 @@
 # lab_coedit
 Experiments on real-time collaborative editor on web based on javascript.
 
+By: X. Chen  
+Since: April 2015  
+
 About
 -----
 
