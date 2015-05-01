@@ -1,8 +1,29 @@
 # lab_coedit
-Experiment on collaborative editor.
+Experiments on real-time collaborative editor on web based on javascript.
+
+About
+-----
+
+Basically, the tasks involved are:
+- collaborative:
+  - based on textarea, or based on editable DIV
+  - capture event. event source can be: keyboard, mouse, drag/drop, ime input, cut/paste, browser undo/redo
+  - how much to capture: 
+    - entire text (easy, but large size), 
+    - or the changed text (smaller size, but hard to capture sometimes)
+  - synchronization through websocket, or ajax.
+- editor features:
+  - wrap or not wrap
+  - line numbering
+    - if wrap, then line numbering should change position according to wrap
+  - others: 
+    - font size, color, style
+    - keywords highlighting
+
 
 Browser type
 -----
+
 browser.js can be used to determine what kind of browser it is. For example, output can be:
 
 Browser name: Firefox  
@@ -43,6 +64,14 @@ Add this to textarea style, so it won't wrap, but scroll in width:
     word-wrap: normal;
     overflow-x: scroll;
 
+
+Relevant editors
+--------
+
+- http://collabedit.com/
+- Google DOCS editor: https://support.google.com/docs
+- http://www.firepad.io
+- http://etherpad.org/
 
 More References
 -----------
