@@ -29,6 +29,7 @@ Browser type
 
 browser.js can be used to determine what kind of browser it is. For example, output can be:
 
+<pre>
 Browser name: Firefox  
 Full version: 37.0  
 Major version: 37  
@@ -37,6 +38,7 @@ User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/
 Platform: Win32  
 Language: en-US  
 Java Enabled: false  
+</pre>
 
 Web page events
 -----
@@ -71,10 +73,10 @@ Add this to textarea style, so it won't wrap, but scroll in width:
 Relevant editors
 --------
 
-- http://collabedit.com/
+- http://collabedit.com
 - Google DOCS editor: https://support.google.com/docs
 - http://www.firepad.io
-- http://etherpad.org/
+- http://etherpad.org
 
 More References
 -----------
