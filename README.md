@@ -14,7 +14,7 @@ Platform: Win32
 Language: en-US  
 Java Enabled: false  
 
-Web page events:
+Web page events
 -----
 
 - keydown -> keypress -> keyup
@@ -44,7 +44,7 @@ Add this to textarea style, so it won't wrap, but scroll in width:
     overflow-x: scroll;
 
 
-References:
+More References
 -----------
 
 <pre>
